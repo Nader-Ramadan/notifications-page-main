@@ -145,10 +145,22 @@ main {
 }
 .attribution {
     text-align: center;
-    display: none;
+    margin: 10rem auto;
+    width: fit-content;
+    color: var(--Very-dark-blue);
+}
+.attribution:hover {
+    transition: 0.5s ease-out;
+    scale: 1.5;
+    padding: 1rem 2rem;
+    border: 0.5rem solid var(--Blue);
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem var(--Very-dark-blue);
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--Blue);
+    text-decoration: none;
+    font-weight: 800;
 }
 @media screen and (min-width: 769px) {
     html {
